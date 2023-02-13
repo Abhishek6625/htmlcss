@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(141, 191, 128);
+}
+header p{
+    color:red;
+}
+header h1{
+    color: blue;
+}
+li{
+    color: red;
+}
+ a{
+    color: blue;
+}
+section{
+    background-color: rgb(141, 191, 128);
+}
+.one{
+    color: rgb(8, 21, 116);
+
+}
+.two{
+    color: rgb(124, 10, 42);
+}
+.three{
+    color: blueviolet;
+}
+main section p{
+    color: rgb(8, 14, 190);
+}
+
+section article p{
+    color: rgb(116, 102, 148);
+}
+
+main h1{
+    background-color: blueviolet;
+}

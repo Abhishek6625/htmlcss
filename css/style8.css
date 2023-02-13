@@ -1,0 +1,31 @@
+/* a{
+    color: blue; */
+/* } */
+
+
+input[type = "text"]{
+    color: blue;
+    background-color: rgba(9, 191, 51, 0.699);
+}
+
+a[href *= Googal]{
+    color:red
+}
+
+input[type="Email"]{
+    color: blue;
+    background-color: rgb(5, 247, 62);
+}
+input[type="Password"]{
+    color: blue;
+    background-color:rgb(5, 247, 62) ;
+}
+/* buttom{ */
+    /* color:blue ; */
+/* } */
+.abhi{
+    color: blue;
+}
+.raja{
+    color:blueviolet
+}

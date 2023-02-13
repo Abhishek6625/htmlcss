@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+
+    <input type="number" placeholder="number1">
+
+    <br><br>
+
+    <input type="number" placeholder="number2">
+
+    <br><br>
+    <button>Add</button>
+
+    <script>
+        document.getElementsByTagName("button")[0].addEventListener("click", function () {
+
+            // document.write("Go Back to Logout! <a href='demojs.html'>logout</a>");
+           var num1 =  document.getElementsByTagName("input")[0].value
+           var num2 =  document.getElementsByTagName("input")[1].value
+            var total = parseInt(num1)+ parseInt(num2);
+
+            alert("Addition : " + total);
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    color: rgb(46, 46, 90);
+}
+
+.test-1{
+    background-color: greenyellow;
+}
+
+.test-green{
+    /* color: green; */
+    background-color: green;
+}
+
+.test2-black{
+    color: black;
+    background-color: greenyellow;
+}
+.test3-green{
+    background-color: greenyellow;
+}
+
+.demo{
+    color: black;
+}

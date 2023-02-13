@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+
+<body>
+    <h2>Sign up Form</h2>
+    <form>
+        <input type="text" placeholder="First Name" required><br><br>
+        <input type="text" placeholder="Last Name"><br><br>
+        <input type="email" placeholder="email"><br><br>
+        <input type="password" placeholder="password"><br><br>
+        <p>Select Gender</p>
+        <label for="Male">Male</label>
+        <input name="gender" type="radio" id="male" value="Male"><br>
+        <label for="Female">Female</label>
+        <input name="gender" type="radio" id="Female" value="Female"><br>
+        <label for="other">other</label>
+        <input name="gender" type="radio" id="other" value="otrher"><br>
+
+
+        <label for="agree">Check this box to proceed</label>
+        <input type="checkbox" name="" id="agree"> <br>
+
+        <label for="country">country</label>
+        <select id="country">
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="China">China</option>
+        </select>
+        <p>Write about yourself below</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea>
+        <br>
+        <!-- <input type="Submit" value="Submit"> -->
+        <button type="Submit" value="Submit">sing in</button>
+    </form>
+</body>
+
+</html>
