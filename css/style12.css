@@ -1,0 +1,72 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    background-color: burlywood;
+    padding: 10px 0px;
+}
+
+p {
+    color: blue;
+    border: 2px solid red;
+    padding: 10px 50px;
+    margin: 20px 10px;
+}
+
+.container{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    border: 2px solid gray;
+}
+.main {
+    border: 2px solid rgb(2, 30, 211);
+    width: 45%;
+    float: left;
+}
+
+.counter {
+    border: 2px solid rgb(209, 3, 3);
+    float: right;
+    width: 45%;
+}
+
+.one {
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+.two {
+    background-color: chartreuse;
+    border-radius: 50px;
+    color: brown;
+}
+
+.three {
+    color: wheat;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+
+.four {
+    color: rgb(239, 17, 6);
+    background-color: pink;
+    border-radius: 50px;
+}
+
+.five {
+    text-align: center;
+    background-color: beige;
+}
+
+div :hover {
+    color: white;
+    background-color: darkcyan;
+}
