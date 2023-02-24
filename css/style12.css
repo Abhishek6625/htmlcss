@@ -61,10 +61,7 @@ p {
     border-radius: 50px;
 }
 
-.five {
-    text-align: center;
-    background-color: beige;
-}
+
 
 div :hover {
     color: white;

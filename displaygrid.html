@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 900px;
+            margin: 5px auto;
+            border: 2px solid green;
+            background-color: rgb(223, 219, 219);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 80px 400px 400px 100px;
+            gap: 0.5rem;
+            grid-template-areas: 'header header header'
+                                    'aside main main'
+                                    'aside main main'
+                                    'aside footer footer';
+        }
+
+        .item1 {
+            background-color: rgb(175, 250, 135);
+            grid-area: header;
+            /* This is grid area name */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item2 {
+            /*background-color: lightcoral; */
+            grid-area: menu;
+            /* This is grid area name */
+        }
+
+        .item3 {
+            background-color: rgb(248, 43, 73);
+            grid-area: main;
+            /* This is grid area name */
+        }
+
+        .item4 {
+            background-color: rgb(243, 183, 159);
+            grid-area: aside;
+            /* This is grid area name */
+        }
+
+        .item5 {
+            background-color: lightgreen;
+            grid-area: footer;
+            /* This is grid area name */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="item1">
+            <a href="#">Home</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">help</a>
+            <a href="#">service</a>
+        </div>
+
+        <div class="item2">
+
+        </div>
+
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+
+</body>
+
+</html>
