@@ -1,0 +1,75 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.ping1{
+    background-image: url(./pexels-photo-3617500.webp);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ping2{
+    background-image: url(./pexels-photo-3105257.jpeg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ping3{
+    background-image: url(./pexels-mathias-reding-15113030.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+
+
+}
+.parea{
+    background-color: rgb(53, 46, 46);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    top: 50%;
+    
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+
+}
+.section_light{
+    background-color: wheat;
+    color: rgb(42, 37, 37);
+}
+.section_dark{
+background-color: darkgray;
+color: black;
+
+
+}
+.section_grea{
+    background-color: #664848;
+    color: white;
+}

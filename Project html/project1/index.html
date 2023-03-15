@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey Form</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="Suevey">
+            Survey Form
+        </h1>
+        <form action="#" class="form">
+            <h3 class="form_1">
+                let us know we can improve freeCodeCamp
+            </h3>
+            <div class="contenar">
+                <div class="contenr_crntrol">
+                    <label for="Name" class="name">Name :</label>
+                    <input type="text" placeholder="Enter your name">
+                    <label for="Email" class="name">Email :</label>
+                    <input type="email" placeholder="Enter your Email">
+                    <label for="age" class="name"> Age :</label>
+                    <input type="number" id="Age" class="age_1" placeholder="Age" min="0" max="60" step="2">
+                </div>
+                <h3 class="form_2"> Which option best describes your current role ?</h3>
+                
+                <label for="cocatry"></label>
+                <select name="cocatry" id="cocatry">
+                    <option value="student">student</option>
+                    <option value="Beznesman">Beznesman</option>
+                    <option value="middle class">Middle class</option>
+                </select>
+                <h3 class="form_3">How likely is that you would recommend <br>
+                    freeCodeCamp to a friend ? </h3>
+                <label for="Definitely">Definitely</label>
+                <input type="radio" name="Definitely" id="Definitely" value="Definitely">
+                <label for="Maybe">Maybe</label>
+                <input type="radio" name="Definitely" id="Maybe" value="Maybe">
+                <label for="Notsure">Not sure</label>
+                <input type="radio" name="Definitely" id="Notsure" value="Notsure">
+                <h3 class="form_4">What do you like most in FCC :</h3>
+                <select name="Fcc" id="Fcc">
+                    <option value="none">select your option</option>
+                    <option value="3-12">3-12</option>
+                    <option value="12-25">12-25</option>
+                    <option value="25-50">25-50</option>
+                    <option value="50+">50+</option>
+                </select>
+                <h3 class="form_5">Things that should be improved in the future <br>
+                    (Check all that apply :)</h3>
+                <label for="Front-end projects"> Front-ent projects</label>
+                <input type="radio" name="front" id="front-end projects" value="front-end projects">
+                <label for="Back-end projects">Back-end projects</label>
+                <input type="radio" name="front" id="Back-end projects" value="Back-end projects">
+                <label for="Data visualization">Data visualization</label>
+                <input type="radio" name="Front" id="Data visualization" value="Data visualization">
+            </div>
+        </form>
+    </header>
+</body>
+
+</html>

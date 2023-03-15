@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive SideBar by PanditProgrammer.com</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main_box" onclick="openmenu()"><strong>&#9776</strong></div>
+    <div id="menu" class="main_item">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <a href="#" class="closebtn" onclick="closemenu()">&times;</a>
+    </div>
+	<div class = "head">
+	<h1 class= "heading">fully responsive sidebar menu with HTML CSS AND JAVASCRIPT </h1>
+	</div>
+    <script>
+        function openmenu() {
+            document.getElementById("menu").style.width = 300 + "px";
+        }
+        function closemenu() {
+            document.getElementById("menu").style.width = 0 + "px";
+        }
+    </script>
+</body>
+
+</html>
