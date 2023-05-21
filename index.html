@@ -1,52 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Responsive Registration Form | Abhishek </title>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-    <style>
-        h2 {
-            padding: 20px;
-            margin: 20px;
-            margin-top: 50px;
-            /* border: 3px solid red; */
-            background-color: lightblue;
-            float: right;
-        }
-        h3 {
-            padding: 20px;
-            margin: 20px;
-            margin-top: 50px;
-            /* border: 3px solid red; */
-            background-color: lightblue;
-            float: left;
-        }
-
-        a {
-            background-color: red;
-            /* display: inline-block; */
-            /* display: none;
-            display: flex; */
-        }
-    </style>
 </head>
 
 <body>
-    <!-- block element  -->
-    <h1>Box Model</h1>
-    <hr>
-
-    <!-- inline-block  -->
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <!-- inline-block  -->
-
-    <!-- inline element  -->
-    <a href="#">click</a>
-    <span>Hello</span>
-
+    <h1>Create by Abhishek kumar !</h1>
+    <main>
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" name="name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Enter your username" name="user" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" name="phone" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your password" name="password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your password" name="c_password" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register" name="save">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
 </body>
 
 </html>
